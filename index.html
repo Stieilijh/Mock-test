@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .instructions {
+            color: #555;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mock Test</h1>
+    <p class="instructions">
+        Please store all your questions as images in the <code>questions</code> folder.
+        Supported formats: <strong>.png, .jpg, .jpeg, .gif</strong>.
+    </p>
+    <div id="test-container">
+        <label id="totalHours-label">
+            Number of Hours:
+            <input id="totalHours-input" type="number" min="1" max="10" value="3" />
+        </label>
+        <label id="totalQuestions-label">
+            Number of Questions:
+            <input id="totalQuestions-input" type="number" min="10" max="100" value="60" />
+        </label>
+        <div>
+            <button id="start-btn">Start</button>
+        </div>
+    </div>
+</body>
+
+</html>
